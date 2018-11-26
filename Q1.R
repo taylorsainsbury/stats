@@ -8,3 +8,4 @@ ratlikelihood <- function (theta) {
   loglik <- sum(log(dweibull(t, shape=1/exp(theta[3]), scale=exp(theta[1] + theta[2]))))
   loglik
 }
+#hi
